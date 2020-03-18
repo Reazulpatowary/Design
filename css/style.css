@@ -1,0 +1,403 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/**=============== End CSS Reset Code ================**/
+
+
+@font-face {
+    font-family: OpenSans-ExtraBold;
+    src: url(../font/OpenSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(../font/OpenSans-Regular.ttf);
+}
+
+
+header{
+	border-top:5px solid #d00b01;
+	padding: 38px 0;
+}
+
+
+.social-icon{
+	width: 100%
+}
+
+.social-icon ul{
+	float: right;
+}
+
+.social-icon ul li{
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	background:#d1d1d1;
+	border-radius: 100%;
+
+}
+
+
+.social-icon ul li a{
+	display: block;
+	text-align: center;
+	padding: 3px 0;
+	color:#fff;
+}
+
+.social-icon ul li:hover{
+	background: #d00b01;
+}
+
+.clear{
+	clear: both;
+}
+
+.menu ul li a:hover{
+	color: #e8e8e8;
+	text-decoration: none;
+
+}
+.menu ul li a {
+	color: #313131;
+		font-size: 14px;
+	font-family: 'OpenSans-ExtraBold';
+
+}
+
+.navbar{
+	float: right;
+	padding: 0px 0px !important;
+}
+
+
+.planing{
+	margin: 120px 0 0;
+	text-align: center;
+}
+
+.icon-dolor a{
+	height: 70px;
+	width: 70px;
+	display: block;
+	margin: 0 auto 18px;
+	background: #d1d1d1;
+	border-radius: 100%;
+	padding: 5px 0px 0px 0px;
+    font-size: 40px;
+    color:#313131;
+
+}
+
+.icon-dolor a:hover{
+	background: #d00b01;
+	color: #fff;
+}
+.icon icon-dolor {
+	text-align: center;
+}
+
+
+h2.title{
+	font-size: 20px;
+	font-family: 'OpenSans-ExtraBold';
+	text-transform: uppercase;
+}
+
+p{
+	font-size: 12px;
+	font-family: 'Arial';
+	text-align: justify;
+}
+
+
+.welcome{
+	padding: 70px 0;
+}
+.welcome-text{
+	text-align: center;
+	border-top: 1px solid #cfcfcf;
+	border-bottom: 1px solid #cfcfcf;
+	padding: 40px 0;
+
+}
+
+
+.feature-item{
+	margin-bottom: 20px;
+}
+.latest-post{
+	margin-bottom: 20px;
+	margin-top: 70px;
+}
+
+.about-news{
+	margin-top: 70px;
+}
+
+
+.about{
+	font-size: 12px;
+	font-family: 'Arial';
+	text-align: justify;
+}
+
+.date{
+	height: 70px;
+	width: 70px;
+	background: #d1d1d1;
+	text-align: center;
+	border-radius: 100%;
+	font-size: 12px;
+	padding-top: 11px;
+	float: left;
+	margin-right: 5px;
+}
+
+.date span{
+	font-size: 17px;
+}
+
+
+h4.title{
+	font-size: 16px;
+	text-transform: uppercase;
+	color:#d32f27;
+	font-family: 'OpenSans';
+}
+
+p.autthor{
+	font-size: 12px;
+	color:#9d9d9d;
+	font-family: 'OpenSans';
+	line-height: 14px;
+}
+.page-footer{
+	margin-top: 5px;
+}
+
+form{
+	font-size: 11px!important;
+}
+.fw{
+	width: 100%;
+	margin-bottom: 3px;
+	padding-left:12px; 
+	background: #d1d1d1;
+	border:none;
+	font-size: 12px;
+	font-style: italic; 
+}
+.fwm{
+	height: 113px;
+	width: 100%;
+	padding-left: 12px;
+	background: #d1d1d1;
+	border:none;
+}
+.cf{
+	text-transform: uppercase;
+	background: #313131;
+	color: #ffffff;
+	width: 90px;
+	height: 30px;
+	border:none;
+	border-radius: 2px;
+}
+.sf {
+	text-transform: uppercase;
+	background: #313131;
+	color: #ffffff;
+	width: 55px;
+	height: 30px;
+	border:none;
+	border-radius: 2px;
+}
+
+.sf:hover{
+	background: #d00b01;
+}
+
+
+
+.flicker-img li{
+	display: inline-block;
+	width:23%;
+	margin-bottom: 5px;
+}
+
+.flicker-img li a img{
+	width: 100%;
+}
+.ending{
+	background: #1e1e1e;
+}
+
+.tweets ul li{
+	border-bottom: 1px solid #d1d1d1;
+	padding: 8px 0;
+	padding-top: 17px;
+}
+.tweets ul li:last-child{
+	border:none;
+}
+.tweets ul li a {
+	font-family:'Arial';
+	font-size: 12px;
+	color: #313131;
+
+}
+.tweets ul li a span {
+	color: #d00b01;
+}
+.tweets ul li p{
+	line-height: 14px;
+}
+.tweets ul li .fab{
+	color: #d00b01;
+}
+.tweets ul li a:hover{
+	text-decoration: none;
+}
+.testimonials .fas{
+	color: #d00b01;
+}
+.testimonials ul li{
+	border-bottom: 1px solid #d1d1d1;
+	padding: 15px 0;
+
+}
+
+.testimonials ul li a {
+	font-family: 'Arial';
+	font-size: 12px;
+	color: #313131;
+}
+.testimonials ul li a span{
+	font-family: 'Arial';
+	font-size: 12px;
+	color: #d00b01;
+	padding: 10px 0 0 0;
+	display: block;
+}
+
+.testimonials ul li p{
+	line-height: 14px;
+	margin-bottom: 0px;
+}
+.testimonials ul li:last-child {
+	border:none;
+
+}
+.testimonials ul li a:hover{
+text-decoration: none;
+}
+
+
+.page-footer {
+	border-top: 4px solid #313131;
+	padding: 35px 0;
+
+}
+
+.social-icon2 ul li{
+	display: inline-block;
+	padding: 0px 5px 0px 0px;
+
+}
+.social-icon2 ul li a:hover {
+	color: #fff;
+}
+.social-icon2{
+	float:left;
+
+}
+.social-icon2 a{
+    color: #393939;
+}
+.ending{
+	height: auto;
+	padding: 30px;
+}
+.Menu {
+	margin-top: 43px;
+}
+
+.Menu a{
+	padding: 0px 10px 0px 0px;
+	text-transform: uppercase;
+	color: #3f3f3f;
+	text-decoration: none;
+	display: inline-block;
+}
+.Menu a:hover{
+	color: #fff;
+	text-decoration: none;
+
+}
+.search{
+	padding: 0px 0px 0px 20px;
+	margin-left: 120px;
+
+}
+.copy-write{
+	margin-top: 20px;
+
+}
+.copy-write a{
+	
+	font-size: 15px;
+	color: #353535;
+}
+.copy-write a:hover{
+	text-decoration: none;
+	color: #fff;
+
+}
